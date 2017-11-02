@@ -7,15 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		259C4FF89812A17A94674503 /* Pods_geoMessager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08119BE308A8AD9EB57BCCBF /* Pods_geoMessager.framework */; };
+		A31D18761FAADF87008C1369 /* Tables.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A31D18751FAADF87008C1369 /* Tables.storyboard */; };
+		A31D18811FAAE5CA008C1369 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31D18801FAAE5CA008C1369 /* CustomButton.swift */; };
+		A31D18831FAAE648008C1369 /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31D18821FAAE648008C1369 /* TextFieldEffects.swift */; };
+		A31D18851FAAE663008C1369 /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31D18841FAAE663008C1369 /* HoshiTextField.swift */; };
+		A31D18871FAAE746008C1369 /* TableTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31D18861FAAE746008C1369 /* TableTabBarViewController.swift */; };
+		A31D18891FAAE85F008C1369 /* TablesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31D18881FAAE85F008C1369 /* TablesViewController.swift */; };
+		A31D188B1FAAE87E008C1369 /* TablesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31D188A1FAAE87E008C1369 /* TablesTableViewController.swift */; };
 		A365A9901F97D855004B160A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A365A98F1F97D855004B160A /* AppDelegate.swift */; };
 		A365A9921F97D855004B160A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A365A9911F97D855004B160A /* FirstViewController.swift */; };
 		A365A9941F97D855004B160A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A365A9931F97D855004B160A /* SecondViewController.swift */; };
 		A365A9971F97D855004B160A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A365A9951F97D855004B160A /* Main.storyboard */; };
 		A365A9991F97D855004B160A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A365A9981F97D855004B160A /* Assets.xcassets */; };
 		A365A99C1F97D855004B160A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A365A99A1F97D855004B160A /* LaunchScreen.storyboard */; };
+		A365A9A91F97DE37004B160A /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = A365A9A81F97DE37004B160A /* Message.swift */; };
+		A365A9AB1F97DE88004B160A /* MapViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A365A9AA1F97DE88004B160A /* MapViewExtension.swift */; };
+		A3C62C2E1FAB070D007F603A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3C62C2D1FAB06A5007F603A /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08119BE308A8AD9EB57BCCBF /* Pods_geoMessager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_geoMessager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		357797DD1C3591A09E0DF4D6 /* Pods-geoMessager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-geoMessager.release.xcconfig"; path = "Pods/Target Support Files/Pods-geoMessager/Pods-geoMessager.release.xcconfig"; sourceTree = "<group>"; };
+		4B189FBE38DA2211C96960AD /* Pods-geoMessager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-geoMessager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-geoMessager/Pods-geoMessager.debug.xcconfig"; sourceTree = "<group>"; };
+		A31D18751FAADF87008C1369 /* Tables.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tables.storyboard; sourceTree = "<group>"; };
+		A31D18801FAAE5CA008C1369 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		A31D18821FAAE648008C1369 /* TextFieldEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldEffects.swift; sourceTree = "<group>"; };
+		A31D18841FAAE663008C1369 /* HoshiTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoshiTextField.swift; sourceTree = "<group>"; };
+		A31D18861FAAE746008C1369 /* TableTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableTabBarViewController.swift; sourceTree = "<group>"; };
+		A31D18881FAAE85F008C1369 /* TablesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TablesViewController.swift; sourceTree = "<group>"; };
+		A31D188A1FAAE87E008C1369 /* TablesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TablesTableViewController.swift; sourceTree = "<group>"; };
 		A365A98C1F97D855004B160A /* geoMessager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = geoMessager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A365A98F1F97D855004B160A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A365A9911F97D855004B160A /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +45,9 @@
 		A365A9981F97D855004B160A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A365A99B1F97D855004B160A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A365A99D1F97D855004B160A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A365A9A81F97DE37004B160A /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		A365A9AA1F97DE88004B160A /* MapViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewExtension.swift; sourceTree = "<group>"; };
+		A3C62C2D1FAB06A5007F603A /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				259C4FF89812A17A94674503 /* Pods_geoMessager.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10CA7D3B6DF8729948C43AB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08119BE308A8AD9EB57BCCBF /* Pods_geoMessager.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83F778AAE605976C461F9F8A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B189FBE38DA2211C96960AD /* Pods-geoMessager.debug.xcconfig */,
+				357797DD1C3591A09E0DF4D6 /* Pods-geoMessager.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A31D18791FAAE439008C1369 /* CustomControls */ = {
+			isa = PBXGroup;
+			children = (
+				A31D18801FAAE5CA008C1369 /* CustomButton.swift */,
+				A31D18821FAAE648008C1369 /* TextFieldEffects.swift */,
+				A31D18841FAAE663008C1369 /* HoshiTextField.swift */,
+			);
+			path = CustomControls;
+			sourceTree = "<group>";
+		};
 		A365A9831F97D855004B160A = {
 			isa = PBXGroup;
 			children = (
 				A365A98E1F97D855004B160A /* geoMessager */,
 				A365A98D1F97D855004B160A /* Products */,
+				83F778AAE605976C461F9F8A /* Pods */,
+				10CA7D3B6DF8729948C43AB9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +110,7 @@
 		A365A98E1F97D855004B160A /* geoMessager */ = {
 			isa = PBXGroup;
 			children = (
+				A3C62C2D1FAB06A5007F603A /* GoogleService-Info.plist */,
 				A365A98F1F97D855004B160A /* AppDelegate.swift */,
 				A365A9911F97D855004B160A /* FirstViewController.swift */,
 				A365A9931F97D855004B160A /* SecondViewController.swift */,
@@ -63,6 +118,13 @@
 				A365A9981F97D855004B160A /* Assets.xcassets */,
 				A365A99A1F97D855004B160A /* LaunchScreen.storyboard */,
 				A365A99D1F97D855004B160A /* Info.plist */,
+				A365A9A81F97DE37004B160A /* Message.swift */,
+				A365A9AA1F97DE88004B160A /* MapViewExtension.swift */,
+				A31D18751FAADF87008C1369 /* Tables.storyboard */,
+				A31D18881FAAE85F008C1369 /* TablesViewController.swift */,
+				A31D188A1FAAE87E008C1369 /* TablesTableViewController.swift */,
+				A31D18861FAAE746008C1369 /* TableTabBarViewController.swift */,
+				A31D18791FAAE439008C1369 /* CustomControls */,
 			);
 			path = geoMessager;
 			sourceTree = "<group>";
@@ -74,9 +136,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A365A9A01F97D855004B160A /* Build configuration list for PBXNativeTarget "geoMessager" */;
 			buildPhases = (
+				729792DD4D1C5DD7649C372E /* [CP] Check Pods Manifest.lock */,
 				A365A9881F97D855004B160A /* Sources */,
 				A365A9891F97D855004B160A /* Frameworks */,
 				A365A98A1F97D855004B160A /* Resources */,
+				663BBF2E3E2F6F689786D833 /* [CP] Embed Pods Frameworks */,
+				5A1CB3BBC9DEC2B2B38AEB03 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,6 +192,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A365A99C1F97D855004B160A /* LaunchScreen.storyboard in Resources */,
+				A31D18761FAADF87008C1369 /* Tables.storyboard in Resources */,
+				A3C62C2E1FAB070D007F603A /* GoogleService-Info.plist in Resources */,
 				A365A9991F97D855004B160A /* Assets.xcassets in Resources */,
 				A365A9971F97D855004B160A /* Main.storyboard in Resources */,
 			);
@@ -134,13 +201,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5A1CB3BBC9DEC2B2B38AEB03 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-geoMessager/Pods-geoMessager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		663BBF2E3E2F6F689786D833 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-geoMessager/Pods-geoMessager-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-geoMessager/Pods-geoMessager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		729792DD4D1C5DD7649C372E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-geoMessager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A365A9881F97D855004B160A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A31D188B1FAAE87E008C1369 /* TablesTableViewController.swift in Sources */,
+				A31D18831FAAE648008C1369 /* TextFieldEffects.swift in Sources */,
 				A365A9941F97D855004B160A /* SecondViewController.swift in Sources */,
+				A365A9A91F97DE37004B160A /* Message.swift in Sources */,
+				A31D18891FAAE85F008C1369 /* TablesViewController.swift in Sources */,
+				A31D18851FAAE663008C1369 /* HoshiTextField.swift in Sources */,
 				A365A9901F97D855004B160A /* AppDelegate.swift in Sources */,
+				A31D18871FAAE746008C1369 /* TableTabBarViewController.swift in Sources */,
+				A31D18811FAAE5CA008C1369 /* CustomButton.swift in Sources */,
+				A365A9AB1F97DE88004B160A /* MapViewExtension.swift in Sources */,
 				A365A9921F97D855004B160A /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,13 +413,14 @@
 		};
 		A365A9A11F97D855004B160A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B189FBE38DA2211C96960AD /* Pods-geoMessager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NVCW3UF3X5;
 				INFOPLIST_FILE = geoMessager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = zhenxin.geoMessager;
+				PRODUCT_BUNDLE_IDENTIFIER = com.geomessagers.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -291,13 +429,14 @@
 		};
 		A365A9A21F97D855004B160A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 357797DD1C3591A09E0DF4D6 /* Pods-geoMessager.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NVCW3UF3X5;
 				INFOPLIST_FILE = geoMessager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = zhenxin.geoMessager;
+				PRODUCT_BUNDLE_IDENTIFIER = com.geomessagers.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
