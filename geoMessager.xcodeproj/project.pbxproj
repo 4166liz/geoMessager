@@ -24,6 +24,7 @@
 		A365A9A91F97DE37004B160A /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = A365A9A81F97DE37004B160A /* Message.swift */; };
 		A365A9AB1F97DE88004B160A /* MapViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A365A9AA1F97DE88004B160A /* MapViewExtension.swift */; };
 		A3C62C2E1FAB070D007F603A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3C62C2D1FAB06A5007F603A /* GoogleService-Info.plist */; };
+		A3C62C301FAB0E60007F603A /* UserItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C62C2F1FAB0E60007F603A /* UserItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		A365A9A81F97DE37004B160A /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		A365A9AA1F97DE88004B160A /* MapViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewExtension.swift; sourceTree = "<group>"; };
 		A3C62C2D1FAB06A5007F603A /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		A3C62C2F1FAB0E60007F603A /* UserItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				A365A9A81F97DE37004B160A /* Message.swift */,
 				A365A9AA1F97DE88004B160A /* MapViewExtension.swift */,
 				A31D18751FAADF87008C1369 /* Tables.storyboard */,
+				A3C62C2F1FAB0E60007F603A /* UserItem.swift */,
 				A31D18881FAAE85F008C1369 /* TablesViewController.swift */,
 				A31D188A1FAAE87E008C1369 /* TablesTableViewController.swift */,
 				A31D18861FAAE746008C1369 /* TableTabBarViewController.swift */,
@@ -279,6 +282,7 @@
 				A31D18811FAAE5CA008C1369 /* CustomButton.swift in Sources */,
 				A365A9AB1F97DE88004B160A /* MapViewExtension.swift in Sources */,
 				A365A9921F97D855004B160A /* FirstViewController.swift in Sources */,
+				A3C62C301FAB0E60007F603A /* UserItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
